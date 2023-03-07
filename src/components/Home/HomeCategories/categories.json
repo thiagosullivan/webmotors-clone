@@ -1,0 +1,47 @@
+[
+    {
+        "categoryName": "SUVs",
+        "categoryUrl": "/suvs",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-suv.webp"
+    },
+    {
+        "categoryName": "Hatches",
+        "categoryUrl": "/hatches",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-hatches.webp"
+    },
+    {
+        "categoryName": "Picapes",
+        "categoryUrl": "/picapes",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-picapes.webp"
+    },
+    {
+        "categoryName": "Carros elétricos",
+        "categoryUrl": "/carros-eletricos",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-carros-eletricos.webp"
+    },
+    {
+        "categoryName": "Sedans",
+        "categoryUrl": "/sedans",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-sedans.webp"
+    },
+    {
+        "categoryName": "Carros econômicos",
+        "categoryUrl": "/carros-economicos",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-carros-economicos.webp"
+    },
+    {
+        "categoryName": "Carros para família",
+        "categoryUrl": "/carros-para-familia",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-carros-familia.webp"
+    },
+    {
+        "categoryName": "Carros a diesel",
+        "categoryUrl": "/carros-diesel",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-carros-diesel.webp"
+    },
+    {
+        "categoryName": "Carros de luxo",
+        "categoryUrl": "/carros-luxo",
+        "categoryImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/categories-carros-luxo.webp"
+    }
+]

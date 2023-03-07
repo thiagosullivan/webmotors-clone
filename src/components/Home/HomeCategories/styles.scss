@@ -1,0 +1,36 @@
+.home-categories {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem !important;
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #696977;
+        margin-bottom: 1rem;
+    }
+
+    .categories-card {        
+        overflow: hidden;
+        position: relative;
+        width: 215px;
+        height: 215px;
+        border-radius: 8px;
+        display: block;
+
+        p {
+            position: absolute;
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: 500;
+            bottom: 25px;
+            left: 25px;
+            text-shadow: 0 0 10px rgba(0 0 0 / 70%);
+        }
+        
+        img {
+            width: 215px;
+            height: 215px;
+            object-fit: cover;
+        }
+    }
+}
