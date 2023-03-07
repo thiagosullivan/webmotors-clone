@@ -1,0 +1,58 @@
+[
+    {
+        "newsTitle": "Câmbio CVT x automático: quais as diferenças?",
+        "newsUrl": "/",
+        "newsCategory": "Comparativos",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-1.jpg",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    },
+    {
+        "newsTitle": "Fiat Argo CVT: 3 razões para ter e 3 para não ter",
+        "newsUrl": "/",
+        "newsCategory": "Seu bolso",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-2.jpeg",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    },
+    {
+        "newsTitle": "Anfavea: produção de veículos cresce em fevereiro",
+        "newsUrl": "/",
+        "newsCategory": "Últimas notícias",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-3.jpg",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    },
+    {
+        "newsTitle": "#Fast ou #Fake: o Chevrolet Astra SS até empolgava",
+        "newsUrl": "/",
+        "newsCategory": "Cultura",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-4.webp",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    },
+    {
+        "newsTitle": "Os cinco carros mais vistos nos filmes e na TV",
+        "newsUrl": "/",
+        "newsCategory": "Cultura",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-5.jpg",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    },
+    {
+        "newsTitle": "Picapes médias: confira as 0 km mais acessíveis",
+        "newsUrl": "/",
+        "newsCategory": "Seu bolso",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-6.webp",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    },
+    {
+        "newsTitle": "Os acessórios de carro mais excêntricos já vistos",
+        "newsUrl": "/",
+        "newsCategory": "Cultura",
+        "newsImg": "https://raw.githubusercontent.com/thiagosullivan/webmotors-clone/main/src/Images/photos/blog-7.jpg",
+        "newsAvatar": "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png",
+        "newsName": "John Doe"
+    }
+]
