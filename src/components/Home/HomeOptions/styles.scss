@@ -1,0 +1,28 @@
+.home-options {
+    font-family: 'Poppins', sans-serif;
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #696977;
+        margin-bottom: 1rem;
+    }
+    
+    .home-options-content {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            background-color: #e11138;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1rem;
+            border-radius: 8px;
+            width: 175px;
+            height: 85px;
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+        }
+    }
+}
