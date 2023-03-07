@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
@@ -16,7 +19,25 @@ p {
 }
 
 .maxContent {
-    max-width: 1365px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+}
+.react-multiple-carousel__arrow--right::before {
+    content: "🡢";
+    color: #2e2d37;
+    font-size: 18px;
+    font-weight: 700;
+}
+.react-multiple-carousel__arrow--left::before {
+    content: "🡠";
+    color: #2e2d37;
+    font-size: 18px;
+    font-weight: 700;
+}
+.react-multiple-carousel__arrow {
+    background-color: rgba(255, 255, 255, .5);
+}
+.react-multiple-carousel__arrow:hover {
+    background-color: rgba(255, 255, 255, 1);
 }
