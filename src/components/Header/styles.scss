@@ -1,0 +1,49 @@
+.header {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+    padding: 0 40px;
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                padding: 0 1rem;
+
+                a {
+                    color: #2e2d37;
+                    font-size: 12px;
+                    font-weight: 500;               
+                }
+            }
+        }
+    }
+
+    .header-login {
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+        border-left: 1px solid #e5e7eb;
+        height: 100%;
+
+        .header-login-div {
+            display: flex;
+            padding: 0 .5rem;
+        }
+
+        svg {
+            width: 24px;
+            height: 24px;
+            display: block;
+        }
+
+        a {
+            padding: 0 .5rem;
+        }
+    }
+}
