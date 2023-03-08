@@ -24,6 +24,87 @@
         }
     }
 
+    .header-nav {
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+
+        ul {
+            li {
+                padding: 0;
+                border-bottom: 4px solid transparent;
+
+                button {
+                    padding: 1.4rem 1rem;
+                    background-color: transparent;
+                    border: none;
+                    font-family: 'Poppins', sans-serif;
+                    color: #2e2d37;
+                    cursor: pointer;
+                }
+
+                &:hover {
+                    border-bottom: 4px solid #e11138;
+                }
+            }
+        }
+
+        .header-nav-sub {
+            top: 83px;
+            left: 0;
+            position: absolute;
+            background-color: #ffffff;
+            border: 1px solid #d5d5d5;
+            z-index: 2;
+
+            ul {
+                li {
+                    list-style: none;
+                    
+                    &::marker {
+                        content: '';
+                    }
+                }
+            }
+
+            .header-nav-sub-item {
+                
+                &:hover {
+                    background-color: #ececec;
+                }                
+
+                p {
+                    display: flex;
+                    align-items: center;
+
+                    svg {
+                        margin-right: 6px;
+                    }
+                }
+            }
+            .ListItemLink {
+                padding: 16px 28px;
+                display: block;
+                color: #2e2d37;
+                font-size: 12px;
+            }
+        }
+        .header-nav-sell {
+            left: 10%;
+        }
+        .header-nav-sell {
+            left: 15%;
+        }
+        .header-nav-services {
+            left: 25%;
+        }
+        .header-nav-news {
+            left: 56%;
+        }
+        .header-nav-help {
+            left: 80%;
+        }
+    }
+
     .header-login {
         display: flex;
         align-items: center;
