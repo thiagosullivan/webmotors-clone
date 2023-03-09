@@ -111,10 +111,50 @@
         padding: 0 1rem;
         border-left: 1px solid #e5e7eb;
         height: 100%;
+        font-family: 'Poppins', sans-serif;
 
         .header-login-div {
             display: flex;
-            padding: 0 .5rem;
+            position: relative;
+
+            li {
+                padding: 0;
+
+                button {
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    font-family: 'Poppins', sans-serif;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .header-login-div-sub {
+            position: absolute;
+            background-color: #ffffff;
+            padding: 1rem;
+            width: 120px;
+
+            li {
+                height: max-content;
+                display: block;
+                padding: 1rem 0;
+
+                a {
+                    height: max-content;
+                    display: block;
+                }
+                p {
+                    display: flex;
+                    align-items: center;
+
+                    svg {
+                        margin-right: 6px;
+                    }
+                }
+            }
         }
 
         svg {
@@ -125,6 +165,11 @@
 
         a {
             padding: 0 .5rem;
+            transition: all 100ms ease-in;
+
+            &:hover {
+                opacity: .6;
+            }
         }
     }
 }

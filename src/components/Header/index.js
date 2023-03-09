@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { CarSafety, CertifiedPurchase, Comparison, FavoriteIcon, Financing, FipeTable, Logo, ManageAd, NavSecurity, NavShop, NavUser, NewBike, NewCar, News, NotificationIcon, OldBike, Portal, ProposalIcon, Secrets, SellBike, SellCar, SellerPlataform, Tests, Tips, UsedCar, UserLoginIcon, Videos, Wallet, ZeroKm } from '../../Images/Icons'
+import { CarSafety, CertifiedPurchase, Comparison, FavoriteIcon, Financing, FipeTable, LoginNav, Logo, ManageAd, NavSecurity, NavShop, NavUser, NewBike, NewCar, News, NotificationIcon, OldBike, Portal, ProposalIcon, Secrets, SellBike, SellCar, SellerPlataform, Tests, Tips, UsedCar, UserLoginIcon, Videos, Wallet, ZeroKm } from '../../Images/Icons'
 import "./styles.scss";
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import classNames from 'classnames';
@@ -180,8 +180,28 @@ function Header() {
 
         <div className='header-login'>
             <div className='header-login-div'>
-                <UserLoginIcon />
-                <p>Entrar</p>
+            <NavigationMenu.Root className='header-login-div'>
+                <NavigationMenu.List>
+                    <NavigationMenu.Item>
+                        <NavigationMenu.Trigger>
+                            <UserLoginIcon />
+                            Entrar
+                        </NavigationMenu.Trigger>
+                        <NavigationMenu.Content className='header-login-div-sub'>
+                            <ListItem className='' href="/login">
+                                <LoginNav />
+                                Login
+                            </ListItem>
+                            <ListItem className='' href="/">
+                                <SellerPlataform />
+                                Sou Lojista
+                            </ListItem>
+                        </NavigationMenu.Content>
+                    </NavigationMenu.Item>
+                </NavigationMenu.List>
+            </NavigationMenu.Root>
+
+                
             </div>
             <Link to="/">
                 <FavoriteIcon />
